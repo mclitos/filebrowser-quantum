@@ -1,0 +1,13 @@
+server:
+  sources:
+    - path: "./srv" #acceso a todo el disco cambiar por ruta selecionada 
+      config:
+        defaultEnabled: true
+frontend:
+  name: "Servidor-1"
+auth:
+  adminUsername: admin
+  adminPassword: admin
+  methods:
+    password:
+      enabled: true
