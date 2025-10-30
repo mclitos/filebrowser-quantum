@@ -12,4 +12,4 @@ services:
     volumes:
       - ./config.yaml:/filebrowser-quantum/data/config.yaml
       - ./data:/filebrowser-quantum/data
-      - /:/srv               # <--- ¡Monta la raíz del VPS!
+      - /:/srv               # <--- ¡Monta la raíz del VPS! , o la carpeta que quiera Ver
